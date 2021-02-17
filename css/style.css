@@ -22,13 +22,13 @@ header img, footer img{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: calc(100vh - 160px);
+	min-height: calc(100vh);
 }
 
 .jumbotron-text {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.7) 0%, rgba(255,255,255,0.5) 100%);
 	width: 55vh;
-	padding: 20px 30px;
+	padding: 10px 10px;
 	border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@ header img, footer img{
 
   .jumbotron .container {
     bottom: 0;
-    transform: translateY(-50%);
+    transform: translateY(-60%);
   }
 
   .jumbotron::after {
