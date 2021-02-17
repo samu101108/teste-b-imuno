@@ -1,0 +1,329 @@
+header img, footer img{
+  width: 100%;
+}
+
+.hero {
+  background-image: url(../assets/bgtop.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* @media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(../assets/bgtop.png);
+    background-position: top center;
+  }
+} */
+
+.jumbotron {
+  position: relative;
+	background-image: url(../assets/imunocaps-banner-desktop-casal.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: calc(100vh - 160px);
+}
+
+.jumbotron-text {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.7) 0%, rgba(255,255,255,0.5) 100%);
+	width: 55vh;
+	padding: 20px 30px;
+	border-radius: 10px;
+}
+
+.jumbotron .container {
+  position: absolute;
+	z-index: 2;
+	top: 50%;
+	transform: translateY(20%);
+}
+
+@media screen and (max-width: 414px) {
+  .jumbotron-text {
+    width: 95%;
+    background: transparent;
+  }
+
+  .jumbotron .container {
+    bottom: 0;
+    transform: translateY(-50%);
+  }
+
+  .jumbotron::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron p {
+  color: #272727;
+  z-index: 2;
+}
+
+@media screen and (max-width: 800px) {
+  .display-1 {
+    font-size: 3rem;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+  }
+}
+
+.vitaminas {
+  height: 200px;
+}
+
+.info-nutri {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='2625' height='547' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23_2960688600__clip0)'%3E%3Cpath opacity='.5' d='M0 37.643V547h3059V108.861c-230.97-56.086-708-135.861-1360.62 0-529.7 110.273-782.319-48.43-1084.504-71.218C336.968 16.76 109.63 32.09 0 37.643z' fill='%23F8F9F9'/%3E%3Cpath d='M2625 25v521H0V163.163c198.199-56.039 711.043-139.09 1122.46-40.162 394.57 94.877 720.47 24.384 968.22-43.896C2287 25 2530.92 19.452 2625 25z' fill='%230E1318' fill-opacity='.02'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='_2960688600__clip0'%3E%3Cpath fill='%23fff' d='M0 0h2625v547H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 575px) {
+  .info-nutri {
+    padding: 0;
+  }
+}
+
+.info-nutri h1 {
+	position: absolute;
+	transform: translate(50%, 50%);
+}
+
+@media screen and (max-width: 575px) {
+  .info-nutri h1 {
+    position: relative;
+    transform: translate(0);
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+  
+  .info-nutri .row .col-sm-6 > img {
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .info-nutri .row .col-sm-6 > img {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+  .info-nutri h1 {
+    position: absolute;
+    transform: translate(10%, 10%);
+  }
+  .info-nutri .row .col-sm-6 > img {
+    width: 360px;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .info-nutri h1 {
+    position: relative;
+    transform: translate(0);
+    text-align: center;
+  }
+}
+
+section.container:nth-child(6) > div:nth-child(1) > div:nth-child(2) {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+  border: 1px solid rgb(240, 237, 237);
+}
+
+div.row:nth-child(1) > div:nth-child(2) h4 {
+  padding-top: 10px;
+}
+
+div.row:nth-child(1) > div:nth-child(2) h4,
+div.row:nth-child(1) > div:nth-child(2) p {
+  font-weight: 600;
+}
+
+.info-nutri > h3:nth-child(2) {
+  margin-top: 30px;
+}
+
+table tr:nth-child(odd){
+  background-color: rgba( 29,34,154,0.1);
+  border-radius: 10px;
+}
+
+.primeira {
+	font-size: 2rem;
+	color: #b87700;
+	font-size: 2.8rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 575px) {
+  .primeira {
+    font-size: 2.6rem;
+    position: relative;
+    top: 0;
+    transform: translateY(-20%);
+  } 
+}
+
+.primeira-form{
+  background-image: url(../assets/iStock-1161884472.jpg);
+  background-size: cover;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.simplifique{
+  background-color: #d7bf47;
+  padding: 50px 150px;
+  background-image: url(../assets/wave.webp);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+@media screen and (max-width: 575px) {
+  .simplifique {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .simplifique {
+    padding: 50px 30px;
+  }
+}
+
+.beneficios {
+  margin-top: 30px;
+	text-align: center;
+}
+
+.simplifique ul { 
+  padding: 0;
+}
+
+.simplifique li {
+	display: inline-flex;
+	list-style: none;
+	width: 220px;
+	padding: 10px 20px;
+	text-align: center;
+	flex-direction: column;
+}
+
+.simplifique li p {
+  font-size: 1.225rem;
+}
+
+.simplifique i {
+  font-size: 3rem;
+}
+
+.icon {
+	width: 80px;
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.display-1 {
+  font-weight: 700;
+}
+
+.display-4, .lead {
+  font-weight: 400;
+}
+
+.table td {
+  font-size: 0.8rem;
+}
+
+.card-text:last-child {
+	margin-bottom: 0;
+	line-height: 1.2rem;
+	font-size: .9rem;
+}
+
+@media screen and (max-width: 575px) {
+  .card-text:last-child {
+    margin-bottom: 0;
+    line-height: 1.5rem;
+    font-size: initial;
+  }
+}
+
+.cta {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.formulario {
+  padding: 80px 0;
+  margin: 0;
+}
+
+form {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+	max-width: 550px;
+	border: 1px solid rgb(240, 237, 237);
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+.ingredientes .row .col-sm-6 p:last-child {
+	line-height: 2rem;
+	padding-right: 30px;
+	margin-top: 20px;
+	font-size: 1.25rem;
+}
+
+@media screen and (max-width: 575px) {
+  .ingredientes .row .col-sm-6 p:last-child {
+    line-height: 1.5rem;
+    padding-right: 30px;
+    margin: 20px 0 40px 0;
+    font-size: initial;
+  }
+}
+
+.card {
+  border: 1px solid rgb(240, 237, 237);
+}
+
+@media screen and (max-width: 575px) {
+  .card-title {
+    font-weight: 600;
+  }
+}
