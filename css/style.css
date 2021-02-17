@@ -9,13 +9,6 @@ header img, footer img{
   background-repeat: no-repeat;
 }
 
-/* @media screen and (max-width: 768px) {
-  .hero {
-    background-image: url(../assets/bgtop.png);
-    background-position: top center;
-  }
-} */
-
 .jumbotron {
   position: relative;
 	background-image: url(../assets/imunocaps-banner-desktop-casal.jpg);
@@ -27,7 +20,7 @@ header img, footer img{
 
 .jumbotron-text {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.7) 0%, rgba(255,255,255,0.5) 100%);
-	width: 55vh;
+	width: 50%;
 	padding: 10px 10px;
 	border-radius: 10px;
 }
@@ -326,4 +319,15 @@ h3 {
   .card-title {
     font-weight: 600;
   }
+}
+
+
+/* Debug */
+/* section {background: red;}
+body {background-color: pink;}
+* { border: 1px solid blue;} */
+
+
+.container {
+	width: inherit;
 }
